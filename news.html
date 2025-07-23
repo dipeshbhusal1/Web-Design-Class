@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+ <header class="py-4 bg-blue-600">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html"><h1 class="text-2xl font-bold text-white">Blog</h1></a>
+        </div>
+    </header>
+<body class= " bg-gray-100 ">
+    <div class=" flex h-[100vh]">
+        <aside class="bg-white w-[20%]">
+            <h3 class="text-2xl font-bold p-4 border-b border-gray-100">Dashboard</h3>
+            <div>
+                <a href="category.html" class="p-4 hover:bg-gray-200 hover:text-[20px] block hover:text-orange-400">Category</a>
+                    <a href="news.html" class="p-4 hover:bg-gray-200 hover:text-[20px] block  hover:text-blue-600">News</a>
+                        <a href="login.html" class="p-4 hover:bg-gray-200 hover:text-[20px] block text-red-600">Logout</a>
+                        <a href="profile.html" class="p-4 hover:bg-gray-200 hover:text-[20px] block  hover:text-sky-600">Your Profile</a>
+            </div>
+
+        </aside>
+        <main class="w-[80%]">
+            <h2 class="text-2xl font-bold p-4 mb-3">Add News</h2>
+           <div class="bg-white p-4 shadow-lg rounded-lg w-full">
+                <h3 class="  mb-3">Title</h3>
+                <form action="" class="flex gap-3 ">
+                    <input type="text" name="" class="w-full border p-2 border-gray-200"
+                        placeholder="Enter Category Name ">   
+                </form>
+                <h3 class="  mb-3">Description</h3>
+                <form action="" class="flex gap-3 ">
+                    <textarea type="text" name="" class="w-full border p-2 border-gray-200"
+                        placeholder="News Description "></textarea>   
+                </form>
+                <h3 class="  mb-3">Category</h3>
+                <select name=""class=" flex gap-3" >
+                    <option value=""></option>
+                     <option value=""></option>
+                      <option value=""></option>
+                </select>
+                <h3 class=" mb-3 ">Upload Image</h3>
+                <form action="" class="flex gap-3 ">
+                    <input type="file" class="w-full border p-2 border-gray-200"placeholder=" ">
+                </form>
+                <button class="bg-blue-600 text-white p-2 ">Add News</button>
+        </main>
+
+    </div>
+    <footer class="bg-blue-600 text-white text-center p-5">
+        Copyright abc.com
+    </footer>
+    
+</body>
+</html>
